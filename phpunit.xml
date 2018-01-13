@@ -11,7 +11,7 @@
 
     <testsuites>
         <testsuite name="Creational">
-            <directory suffix="Test.php">./tests/Creational/Builder</directory>
+            <directory suffix="Test.php">./tests/Creational</directory>
         </testsuite>
     </testsuites>
     <filter>
