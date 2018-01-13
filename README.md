@@ -11,6 +11,7 @@ $ composer install
 
 ```bash
 $ npm install
+$ npm install -g gulp
 ```
 
 ### Running Test
@@ -24,7 +25,6 @@ $ ./vendor/bin/phpunit
 The ``gulp`` command will continue running in your terminal and watch all relevant files for changes. gulp will then automatically recompile your tests and src when it detects a change:
 
 ```bash
-$ npm install -g gulp
 $ gulp
 ```
 
