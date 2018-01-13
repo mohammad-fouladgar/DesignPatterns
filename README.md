@@ -7,8 +7,24 @@ TDD code for design patterns by phpunit test
 $ composer install
 ```
 
-### Running test
+### Install npm dependencies
+
+```bash
+$ npm install
+```
+
+### Running Test
 
 ```bash
 $ ./vendor/bin/phpunit
 ```
+
+### Watching Unit Test For Changes
+
+The ``gulp`` command will continue running in your terminal and watch all relevant files for changes. gulp will then automatically recompile your tests and src when it detects a change:
+
+```bash
+$ npm install -g gulp
+$ gulp
+```
+
