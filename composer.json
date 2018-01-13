@@ -1,10 +1,24 @@
 {
-    "autoload": {
-        "classmap": [
-            "src/"
-        ]
-    },
+    "name": "mohammad-fouladgar/design-patterns",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Mohammad Fouladgar",
+        "email": "mohammadfouladgarphp@gmail.com"
+      }
+    ],
     "require-dev": {
         "phpunit/phpunit": "^6"
+    },
+    "autoload": {
+        "psr-4": {
+            "DesignPatterns\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
     }
 }
