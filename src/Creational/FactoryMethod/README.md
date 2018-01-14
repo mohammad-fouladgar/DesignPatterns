@@ -8,12 +8,12 @@ As the name **Factory** indicates that it will create something. This something 
 
 ## participants in this pattern are:
 
-**IProduct:** The interface for the concrete product
+* **IProduct:** The interface for the concrete product
 
-**ConcreteProduct:** Class type that provides Concrete implementation of IProduct interface
+* **ConcreteProduct:** Class type that provides Concrete implementation of IProduct interface
 
-**Creator:** Abstract class that provides FactoryMethod.
+* **Creator:** Abstract class that provides FactoryMethod.
 
-**ConcreteCreator:** Class that will implement abstract method FactoryMethod
+* **ConcreteCreator:** Class that will implement abstract method FactoryMethod
 
-**FactoryMethod:** Method that will decide which class will instantiate
+* **FactoryMethod:** Method that will decide which class will instantiate
