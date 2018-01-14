@@ -1,5 +1,5 @@
 # Design Patterns in PHP 
-TDD code for design patterns by phpunit test
+TDD code for design patterns using phpunit test
 
 ### Install dependencies
 
