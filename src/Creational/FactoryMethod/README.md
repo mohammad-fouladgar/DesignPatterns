@@ -17,3 +17,12 @@ As the name **Factory** indicates that it will create something. This something 
 * **ConcreteCreator:** Class that will implement abstract method FactoryMethod
 
 * **FactoryMethod:** Method that will decide which class will instantiate
+
+## Classes in the example are:**
+* **IFactory:** Interface
+
+* **PerrmanentEmployee and TemporaryEmployee:** Concrete Product classes
+
+* **EmployeeFactory:** creator
+
+* **ConcreteEmployeeFactory:** Concrete creator class

@@ -13,3 +13,10 @@ Within abstract factory, factory design pattern is used to create objects. Howev
 * **AbstractProduct:** This is an Interface which declares type of Product object.
 * **Product:** Implements AbstractProduct interface to create Product object.
 * **Client:** Uses AbstractFactory and AbstractProduct interfaces to create family of related objects
+
+## Classes in the example are:
+* **IComputerFactory:** AbstractFactory interface
+* **DellFactory, LenovoFactory:** ConcreteFactoryA and ConcreteFactoryB
+* **ILaptop, IDesktop:** AbstractProductA and AbstractProductB
+* **GamingLaptop, NormalLaptop, GamingDesktop, NormalDesktop:** ProductA1, ProductA2, ProductB1 and ProductB2
+* **ComputerClient:** Client
