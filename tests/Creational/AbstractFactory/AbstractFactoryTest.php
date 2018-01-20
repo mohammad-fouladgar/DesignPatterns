@@ -139,23 +139,23 @@ class AbstractFactoryTest extends TestCase
         $this->assertEquals($dellClient->getDesktop()->getName(), 'Normal Desktop');
     }
 
+    /**
+     * @test
+     * @expectedException              \InvalidArgumentException
+     * @expectedExceptionMessage       Any can not be created
+     */
     public function testReturnInvalidExceptionForAnotherDellFactoryType()
     {
-        try {
-            $dellClient = new ComputerClient($this->dellFactory, 'Any');
-        } catch (\InvalidArgumentException $e) {
-            $this->assertInstanceOf(\InvalidArgumentException::class, $e);
-            $this->assertEquals('Any can not be created', $e->getMessage());
-        }
+        $dellClient = new ComputerClient($this->dellFactory, 'Any');
     }
 
+    /**
+     * @test
+     * @expectedException              \InvalidArgumentException
+     * @expectedExceptionMessage       etc can not be created
+     */
     public function testReturnInvalidExceptionForAnotherLenovoFactoryType()
     {
-        try {
-            $lenovoClient = new ComputerClient($this->lenovoFactory, 'etc');
-        } catch (\InvalidArgumentException $e) {
-            $this->assertInstanceOf(\InvalidArgumentException::class, $e);
-            $this->assertEquals('etc can not be created', $e->getMessage());
-        }
+        $lenovoClient = new ComputerClient($this->lenovoFactory, 'etc');
     }
 }
