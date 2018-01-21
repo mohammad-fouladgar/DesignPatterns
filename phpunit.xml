@@ -12,6 +12,7 @@
     <testsuites>
         <testsuite name="Creational">
             <directory suffix="Test.php">./tests/Creational</directory>
+            <directory suffix="Test.php">./tests/Structural</directory>
         </testsuite>
     </testsuites>
     <filter>
