@@ -11,9 +11,6 @@ class Singleton
      */
     private function __construct()
     {
-        echo 'Constructor of class should be private: 
-        Since you don’t want to create multiple instance of the class,
-        hence the constructor of the class should be private.';
     }
 
     /**
